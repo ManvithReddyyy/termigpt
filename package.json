@@ -1,0 +1,32 @@
+{
+  "name": "askit-cli",
+  "version": "1.0.0",
+  "description": "AI-powered terminal assistant with personality.",
+  "bin": {
+    "askit": "ask.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "ai",
+    "assistant",
+    "terminal",
+    "openai"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^12.1.0",
+    "dotenv": "^17.2.3",
+    "marked": "^15.0.12",
+    "marked-terminal": "^7.3.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.57.0",
+    "ora": "^9.0.0"
+  },
+  "main": "ask.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
